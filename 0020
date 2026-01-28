@@ -1,0 +1,2 @@
+print("It's the time!")
+print('It\'s the time!')
