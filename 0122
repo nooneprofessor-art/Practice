@@ -1,0 +1,9 @@
+print("Обратный отсчет с for")
+for i in range(10):
+    print(i)
+    
+print("\nОбратный отсчет с while")
+num = 0
+while num < 10:
+    print(num)
+    num +=1
