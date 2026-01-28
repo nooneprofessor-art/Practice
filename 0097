@@ -1,0 +1,6 @@
+food = int(input())
+
+for a in range(food):
+    print("+ 🍗")
+
+print("\nYou're full!")
