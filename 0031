@@ -1,0 +1,8 @@
+m = {6, 4, 7, 5}
+print(m)
+l = []
+for i in range(len(m)):
+    el = m.pop()
+    l.append(el)
+
+print(l)
