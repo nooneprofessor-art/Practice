@@ -1,3 +1,0 @@
-a, b = input("Первое число: "), input("Второе число: ")
-
-print(int(a) + int(b))
