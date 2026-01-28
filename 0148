@@ -1,0 +1,32 @@
+list1 = [True, True, True]
+list2 = [False, False, False]
+list3 = [None, None, None]
+print(list1)
+print(list2)
+print(list3)
+
+combination = input("\nВыберите комбинацию: 1|2|3|4|5\n")
+print("Выбрано: " + combination + "\n")
+
+if combination == "1":
+    list1.extend(list2)
+    list1.extend(list3)
+    print(list1)
+elif combination == "2":
+    list1.extend(list3)
+    list1.extend(list2)
+    print(list1)
+elif combination == "3":
+    list2.extend(list1)
+    list2.extend(list3)
+    print(list2)
+elif combination == "4":
+    list3.extend(list1)
+    list3.extend(list2)
+    print(list3)
+elif combination == "5":
+    list3.extend(list2)
+    list3.extend(list1)
+    print(list3)
+else:
+    print("Ошибка в поиске")
