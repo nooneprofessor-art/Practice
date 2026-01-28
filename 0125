@@ -1,0 +1,7 @@
+start = True
+
+while start:
+    print("процесс цикла...")
+    if input() == "5":
+        print("\nпроцесс завершен\n")
+        start = start = False
