@@ -1,0 +1,7 @@
+a = input()
+b = int(input())
+c = float(input())
+
+print("Строка:", a)
+print("Целое число:", b)
+print("Вещественное число:", c)
