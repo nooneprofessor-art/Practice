@@ -1,0 +1,10 @@
+import pygame
+pygame.init()
+
+screen = pygame.display.set_mode((400, 300))
+
+running = True
+while running:
+    # Ввод события (процесса)
+    # Обновление
+    # Визуализация (сборка)
