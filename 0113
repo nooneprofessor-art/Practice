@@ -1,0 +1,9 @@
+v = True
+o = False
+
+if v and o:
+    print("First code")
+elif v or o:
+    print("Second code")
+else:
+    print("Third code")
