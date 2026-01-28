@@ -1,0 +1,41 @@
+if "aplle" != "Aplle":
+    print("Yes! [1]")
+
+if True or False:
+    print("Yes! [2]")
+    
+if True and True:
+    print("Yes! [3]")
+    
+if True or True:
+    print("Yes! [4]")
+
+if 1 + 1 == 3 - 1:
+    print("Yes! [5]")
+
+if 10 / 4 == 2.5:
+    print("Yes! [6]")
+
+if 12 // 2 >= 5:
+    print("Yes! [7]")
+
+if 5 ** 3 <= 125:
+    print("Yes! [8]")
+
+if 145 % 19 != 5 * 8 + 2:
+    print("Yes! [9]")
+
+if 100 < 200:
+    print("Yes! [10]")
+
+if 250 > 249:
+    print("Yes! [11]")
+
+if min(10, 26) < max(12, 23):
+    print("Yes! [12]")
+
+if abs(-5) == 5:
+    print("Yes! [13]")
+    
+if pow(4, 4) > pow(4, 3):
+    print("Yes! [14]")
