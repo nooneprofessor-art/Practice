@@ -1,0 +1,31 @@
+salary = [
+115000,
+250000,
+70000
+]
+
+employees = [
+"James",
+"Tom",
+"Anna"
+]
+
+work_days = [
+"Monday",
+"Tuesday",
+"Wednesday",
+"Friday",
+"Saturday"
+]
+
+start = input("Hello, this is a company, «KNOW-HOW». How can I help you?\n\n1. Salary\n2. Company employees\n3. Work days\n")
+print("\nSelect item: "+ start + "\n")
+
+if start == "1":
+    print("Result:", salary)
+elif start == "2":
+    print("Result:", employees)
+elif start == "3":
+    print("Result:", work_days)
+else:
+    print("Invalid input")
