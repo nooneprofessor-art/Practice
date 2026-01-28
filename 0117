@@ -1,0 +1,14 @@
+num = 0
+v = int(input("Сколько будет 5 + 5?\n"))
+print(v)
+
+o = True if v == 10 else False
+
+if o:
+    while num > -1 and num < 6:
+        print("Выиграл: 🎁")
+        num += 1
+elif not o:
+    while num > -1 and num < 6:
+        print("Выиграл: 💩")
+        num += 1
