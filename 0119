@@ -1,0 +1,11 @@
+num = int(input())
+while num != 8:
+    num = int(input())
+    
+print("\nПобеда 1!")
+
+letter = input()
+while letter != "o":
+    letter = input()
+    
+print("\nПобеда 2!")
