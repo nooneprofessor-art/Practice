@@ -1,0 +1,7 @@
+num1 = input("Введи: ")
+num2 = input("Введи; ")
+
+num1p = int(num1)
+num2p = int(num2)
+
+print("\n", num1p + num2p, "\n", num1p - num2p, "\n", num1p / num2p, "\n", num1p * num2p)
