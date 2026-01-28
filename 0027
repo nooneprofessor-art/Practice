@@ -1,0 +1,3 @@
+print(round(67 / 9))
+print(round(67 / 9, 2))
+print(round(67 / 9, 5))
