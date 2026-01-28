@@ -1,0 +1,53 @@
+word = "abalienate"
+
+letter_a = 0
+letter_b = 0
+letter_e = 0
+letter_i = 0
+letter_l = 0
+letter_n = 0
+letter_t = 0
+
+for i in word:
+    if i == "a":
+        letter_a += 1
+        
+for i in word:
+    if i == "b":
+        letter_b += 1
+        
+for i in word:
+    if i == "e":
+        letter_e += 1
+
+for i in word:
+    if i == "i":
+        letter_i += 1
+        
+for i in word:
+    if i == "l":
+        letter_l += 1
+        
+for i in word:
+    if i == "n":
+        letter_n += 1
+        
+for i in word:
+    if i == "t":
+        letter_t += 1
+        
+print("Слово: abalienate\n")
+        
+print("Буква a:", letter_a)
+print("Буква b:", letter_b)
+print("Буква e:", letter_e)
+print("Буква i:", letter_i)
+print("Буква l:", letter_l)
+print("Буква n:", letter_n)
+print("Буква t:", letter_t)
+
+letters = letter_a + letter_b + letter_e + letter_i + letter_l + letter_n + letter_t
+
+print("\nОбщее количество слов:",letters)
+
+print("\nСлово задом наперед: etaneilaba")
