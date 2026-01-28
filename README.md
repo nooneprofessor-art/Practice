@@ -1,2 +1,2 @@
 # Practice
-My small practice codes.
+My small practice codes
