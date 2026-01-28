@@ -1,0 +1,9 @@
+mine_ore = int(input())
+
+while mine_ore > 0:
+    print("Руда добыта ⛏️")
+    mine_ore = mine_ore - 1
+    
+examination = 10 >= mine_ore
+
+print("\nСпасибо за содруничество!")
