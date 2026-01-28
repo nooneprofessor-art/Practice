@@ -1,0 +1,10 @@
+a = None
+
+for i in "sololearn":
+    if i == "n":
+        a = True
+        break
+else:
+    a = False
+    
+print(a)
