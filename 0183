@@ -1,0 +1,12 @@
+v = False
+
+if v:
+    print("First operation...")
+elif not v:
+    print("Second operation...")
+else:
+    print("Third operation...")
+
+# «elif» выдавает результат в зависимости от того, выполняется определенное условие или нет. 
+
+# Проверяется только в случае, если предыдущее условие не было истинным.
