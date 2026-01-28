@@ -1,0 +1,8 @@
+v = True
+
+if not v:
+    print("This is \"if\".")
+else:
+    print("This is \"else\".")
+    
+# Если условие истинно, выполняется блок кода под if. Если условие ложно — else.
