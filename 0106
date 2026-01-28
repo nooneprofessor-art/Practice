@@ -1,0 +1,7 @@
+if 5 == 5:
+    print("Minecraft")
+    print("Sally Face")
+    if 5 == 6:
+        print("No!")
+    print("The last of us")
+    print("Stray")
