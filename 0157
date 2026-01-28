@@ -1,0 +1,14 @@
+v = [5]
+v.append(50.25)
+v.insert(0, True)
+v.extend([10, False, 40.3])
+print("ОБЫЧНЫЙ СПИСОК:")
+print(v)
+
+v.reverse()
+print("\nОБРАТНЫЙ СПИСОК:")
+print(v)
+
+v.sort()
+print("\nСОРТИРОВАННЫЙ СПИСОК:")
+print(v)
