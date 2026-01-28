@@ -1,0 +1,9 @@
+print("Welcome to sololearn!")
+password = "solo"
+
+guess = input("\nPlease enter your password: ")
+
+while guess != password:
+    guess = input("\nError, please enter your password again: ")
+
+print("\nAccess granted ✅")
