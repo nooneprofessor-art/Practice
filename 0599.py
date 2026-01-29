@@ -1,0 +1,1 @@
+print((lambda x=2: x * 2)())
